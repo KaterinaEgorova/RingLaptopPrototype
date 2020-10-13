@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="RingLaptopPrototype.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RingLaptopPrototype"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Register BG Task" Margin="39,50,0,0" VerticalAlignment="Top" Height="45" Width="216" Click="Button_Click"/>
+        <Button Content="Play sound" Margin="39,121,0,0" VerticalAlignment="Top" Click="Button_Click_1" RenderTransformOrigin="-6.696,0.272" Height="45" Width="216"/>
+        <TextBlock HorizontalAlignment="Left" Height="94" Margin="288,73,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="529" Name="TextBlock"/>
+        <Button Content="Get devices" Margin="39,188,0,0" VerticalAlignment="Top"  RenderTransformOrigin="-6.696,0.272" Height="45" Width="216" Click="Button_Click_2"/>
+        <ComboBox Margin="39,289,0,0" Width="216" Height="43" Name="AudioDeviceComboBox"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,266,0,0" Text="Audio devices" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+
+    </Grid>
+</Page>

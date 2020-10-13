@@ -1,0 +1,6 @@
+MainPackage=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype_1.0.0.0_x64_Debug.msix
+SymbolPackage=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\obj\x64\Debug\Symbols\RingLaptopPrototype_1.0.0.0_x64_Debug.appxsym
+ResourcePack=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype_1.0.0.0_scale-100.msix
+ResourcePack=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype_1.0.0.0_scale-125.msix
+ResourcePack=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype_1.0.0.0_scale-150.msix
+ResourcePack=C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype_1.0.0.0_scale-400.msix

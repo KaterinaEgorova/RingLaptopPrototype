@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
+        "projectName": "RingLaptopPrototype",
+        "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
+        "packagesPath": "C:\\Users\\katerina.egorova\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\katerina.egorova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj": {
+                "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj",
+        "projectName": "Tasks",
+        "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj",
+        "packagesPath": "C:\\Users\\katerina.egorova\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\katerina.egorova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

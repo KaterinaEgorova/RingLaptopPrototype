@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP52019</Machine>
+    <WindowsUser>katerina.egorova</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>a5f36359-ef83-48d5-bb6e-8bf7af798ea5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=katerina.egorova</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C18BDCCF90EBFE64E6D1FC63C58BBE510C96D2861E37568D9CE0B5D8A3B1CAEA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a5f36359-ef83-48d5-bb6e-8bf7af798ea5_1.0.0.0_x64__gwp2r4eq3gvn2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a5f36359-ef83-48d5-bb6e-8bf7af798ea5_gwp2r4eq3gvn2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a5f36359-ef83-48d5-bb6e-8bf7af798ea5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=katerina.egorova</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T22:36:35.616</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.exe">
+      <PackagePath>entrypoint\RingLaptopPrototype.exe</PackagePath>
+      <Modified>2020-10-09T22:36:34.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-28T03:17:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-12-07T03:24:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopTask\bin\x64\Debug\Tasks.winmd">
+      <PackagePath>Tasks.winmd</PackagePath>
+      <Modified>2020-10-09T22:33:44.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T20:40:00.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T20:40:00.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T20:40:00.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T20:40:00.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T20:40:00.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:24.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-10-08T15:24:05.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:23.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T19:15:22.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\TILE_113_Find.mp3">
+      <PackagePath>Assets\TILE_113_Find.mp3</PackagePath>
+      <Modified>2020-10-08T15:02:18.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\TILE_118_Active.mp3">
+      <PackagePath>Assets\TILE_118_Active.mp3</PackagePath>
+      <Modified>2020-10-08T15:02:18.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-10-08T19:22:20.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.xr.xml">
+      <PackagePath>RingLaptopPrototype.xr.xml</PackagePath>
+      <Modified>2020-10-09T22:33:50.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-10-09T22:36:34.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-10-09T22:36:34.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-12-07T01:33:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-10-09T20:42:31.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\Core\RingLaptopPrototype.exe">
+      <PackagePath>RingLaptopPrototype.exe</PackagePath>
+      <Modified>2020-10-09T22:36:35.607</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\katerina.egorova\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
