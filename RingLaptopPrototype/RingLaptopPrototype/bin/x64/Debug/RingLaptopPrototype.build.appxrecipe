@@ -10,281 +10,287 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>a5f36359-ef83-48d5-bb6e-8bf7af798ea5</PackageIdentityName>
     <PackageIdentityPublisher>CN=katerina.egorova</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.exe">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.exe">
       <PackagePath>entrypoint\RingLaptopPrototype.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\katerina.egorova\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopTask\bin\x64\Debug\Tasks.winmd">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopTask\bin\x64\Debug\Tasks.winmd">
       <PackagePath>Tasks.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\TILE_113_Find.mp3">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\playsnd.exe">
+      <PackagePath>Assets\playsnd.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\tile.wav">
+      <PackagePath>Assets\tile.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\TILE_113_Find.mp3">
       <PackagePath>Assets\TILE_113_Find.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Assets\TILE_118_Active.mp3">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Assets\TILE_118_Active.mp3">
       <PackagePath>Assets\TILE_118_Active.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.xr.xml">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\RingLaptopPrototype.xr.xml">
       <PackagePath>RingLaptopPrototype.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\bin\x64\Debug\Core\RingLaptopPrototype.exe">
+    <AppxPackagedFile Include="C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\bin\x64\Debug\Core\RingLaptopPrototype.exe">
       <PackagePath>RingLaptopPrototype.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

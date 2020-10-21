@@ -10,14 +10,13 @@
 
 using System;
 using System.Diagnostics;
-using System.Threading.Tasks;
-using Windows.ApplicationModel.Background;
 using Windows.Foundation.Diagnostics;
-using Windows.Media;
 using Windows.Media.Core;
+using Windows.ApplicationModel;
+using Windows.Foundation.Metadata;
+using Windows.ApplicationModel.Background;
+using Windows.ApplicationModel.ExtendedExecution.Foreground;
 using Windows.Media.Playback;
-using Windows.Storage;
-using Windows.System.Threading;
 
 //
 // The namespace for the background tasks.
@@ -30,13 +29,11 @@ namespace Tasks
     public sealed class RingBackgroundTask : IBackgroundTask
     {
         BackgroundTaskCancellationReason _cancelReason = BackgroundTaskCancellationReason.Abort;
-        volatile bool _cancelRequested = false;
         BackgroundTaskDeferral _deferral = null;
-        ThreadPoolTimer _periodicTimer = null;
-        uint _progress = 0;
         IBackgroundTaskInstance _taskInstance = null;
-        static MediaPlayer player = null;
-        static LoggingChannel lc = null;
+        MediaPlayer player = null;
+        LoggingChannel lc = null;
+        private ExtendedExecutionForegroundSession session = null;
 
         //
         // The Run method is the entry point of a background task.
@@ -44,43 +41,47 @@ namespace Tasks
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
             _deferral = taskInstance.GetDeferral();
+
             if (lc == null)
             {
                 lc = new LoggingChannel("Tile", null, new Guid("4bd2826e-54a1-4ba9-bf63-92b73ea1ac4a"));
             }
 
-            lc.LogMessage("Run entry");
-            Debug.WriteLine("Background " + taskInstance.Task.Name + " Starting...");
+            lc.LogMessage(taskInstance.Task.Name + " Entry");
 
-            PlaySound();
+            //PlaySound();
+
+            if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
+            {
+                BackgroundTaskDeferral deferral = taskInstance.GetDeferral();
+
+                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync();
+
+                lc.LogMessage("app launched");
+
+                deferral.Complete();
+            }
             
-            //
-            // Associate a cancellation handler with the background task.
-            //
+
             taskInstance.Canceled += new BackgroundTaskCanceledEventHandler(OnCanceled);
 
-            //
-            // Get the deferral object from the task instance, and take a reference to the taskInstance;
-            //
-            //_deferral = taskInstance.GetDeferral();
             _taskInstance = taskInstance;
-
-            //_periodicTimer = ThreadPoolTimer.CreatePeriodicTimer(new TimerElapsedHandler(PeriodicTimerCallback), TimeSpan.FromSeconds(1));
         }
 
         private void PlaySound()
         {
-            //ToastHelper.PopToast("Ring Laptop", $"the task is activated");
+            lc.LogMessage("PlaySound");
 
+            //ToastHelper.PopToast("Ring Laptop", $"the task is activated");
             if (player == null)
             {
                 player = new MediaPlayer();
 
                 player.MediaEnded += OnMediaPlayerEnded;
                 player.MediaFailed += OnMediaFailed;
-                player.AutoPlay = false;
+                player.AutoPlay = true;
                 player.AudioCategory = MediaPlayerAudioCategory.Media;
-
+                player.CurrentStateChanged += MediaPlayer_CurrentStateChanged;
 
                 player.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/TILE_118_Active.mp3"));
 
@@ -92,7 +93,6 @@ namespace Tasks
             player.IsMuted = false;
             player.Volume = 1;
             player.Play();
-            //_deferral?.Complete();
         }
 
         //
@@ -100,14 +100,35 @@ namespace Tasks
         //
         private void OnCanceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
         {
+            lc.LogMessage("OnCanceled");
+
             //
             // Indicate that the background task is canceled.
             //
-            _cancelRequested = true;
             _cancelReason = reason;
 
             Debug.WriteLine("Background " + sender.Task.Name + " Cancel Requested...");
+            player.Dispose();
             _deferral.Complete();
+        }
+
+        private async void MediaPlayer_CurrentStateChanged(MediaPlayer sender, object args)
+        {
+            lc.LogMessage("MediaPlayer_CurrentStateChanged");
+            if (sender.PlaybackSession.PlaybackState == MediaPlaybackState.Playing)
+            {
+                session = new ExtendedExecutionForegroundSession();
+                session.Reason = ExtendedExecutionForegroundReason.BackgroundAudio;
+                var result = await session.RequestExtensionAsync();
+
+                lc.LogMessage($"requested extended session... result: {result}");
+                if (result != ExtendedExecutionForegroundResult.Allowed)
+                {
+                    lc.LogMessage($"denied");
+
+                    throw new Exception("EE denied");
+                }
+            }
         }
 
         private void OnMediaPlayerEnded(MediaPlayer sender, object args)
@@ -115,13 +136,15 @@ namespace Tasks
             lc.LogMessage("OnMediaPlayerEnded");
 
             sender.PlaybackSession.Position = TimeSpan.Zero;
-            sender.Dispose();
+            player.Dispose();
             _deferral?.Complete();
         }
 
         private void OnMediaFailed(MediaPlayer sender, MediaPlayerFailedEventArgs args)
         {
             lc.LogMessage("OnMediaFailed");
+
+            player.Dispose();
 
             _deferral.Complete();
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Icjra7EHJnmbKDPil87HdZ/f2BgC9g6t2olXg2PxsfKuEkMcw/zU1hJYu8xVpkAdi94Xf+n2TFUsWkeSO2H0ng==",
+  "dgSpecHash": "18zdV112qycJ36pGeB/V73Eau9a+0QzDGoV3jh+Y3o0jncwA0hPaxRunRk+Fp/jwt8edIc+6q3saPczQXkjnEA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj",
+  "projectFilePath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\katerina.egorova\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\katerina.egorova\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

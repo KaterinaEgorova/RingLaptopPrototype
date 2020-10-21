@@ -9,6 +9,7 @@ Assets\LargeTile.scale-150.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
 Assets\LockScreenLogo.scale-200.png
+Assets\playsnd.exe
 Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-125.png
 Assets\SmallTile.scale-150.png
@@ -49,6 +50,7 @@ Assets\StoreLogo.scale-125.png
 Assets\StoreLogo.scale-150.png
 Assets\StoreLogo.scale-200.png
 Assets\StoreLogo.scale-400.png
+Assets\tile.wav
 Assets\TILE_113_Find.mp3
 Assets\TILE_118_Active.mp3
 Assets\Wide310x150Logo.scale-100.png

@@ -1,2 +1,2 @@
-C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype\RingLaptopPrototype.csproj;x64
-C:\dev\RingLaptopPrototype\RingLaptopPrototype\RingLaptopTask\Tasks.csproj;x64
+C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopPrototype\RingLaptopPrototype.csproj;x64
+C:\dev\RingLaptopPrototype-muthu\RingLaptopPrototype-muthu\RingLaptopTask\Tasks.csproj;x64

@@ -40,26 +40,19 @@ namespace RingLaptopPrototype
 
         private void RegisterBackgroundTask(object sender, RoutedEventArgs e)
         {
-            /*
-             
-            // wake from sleep - works when press side button and lid is closed 
-            //wake from hibernate - works when press side button and lid is closed 
-
-            var trigger = SystemTriggerType.UserPresent;
-            var condition = SystemConditionType.SessionConnected;*/
-
-            var trigger = SystemTriggerType.UserPresent;
-            SystemConditionType condition = SystemConditionType.SessionConnected;
+            BackgroundTaskSample.UnregisterBackgroundTasks(BackgroundTaskSample.SampleBackgroundTaskName);
+            BackgroundTaskSample.UnregisterBackgroundTasks(BackgroundTaskSample.SampleBackgroundTaskName);
 
             BackgroundTaskSample.UnregisterBackgroundTasks(BackgroundTaskSample.SampleBackgroundTaskName);
-            var task = BackgroundTaskSample.RegisterBackgroundTask(BackgroundTaskSample.SampleBackgroundTaskEntryPoint,
+                        BackgroundTaskSample.UnregisterBackgroundTasks(BackgroundTaskSample.SampleBackgroundTaskName);
+
+           BackgroundTaskSample.RegisterBackgroundTask(BackgroundTaskSample.SampleBackgroundTaskEntryPoint,
                 BackgroundTaskSample.SampleBackgroundTaskName,
-                new SystemTrigger(trigger, false) ,new SystemCondition(condition));
-            if (task != null)
-            {
-                TextBlock.Text = $"Bg task registered: Trigger: {trigger}, Condition: {condition}";
-            }
-            
+                new SystemTrigger(SystemTriggerType.UserPresent, false) ,null);
+
+            BackgroundTaskSample.RegisterBackgroundTask(BackgroundTaskSample.SampleBackgroundTaskEntryPoint,
+                BackgroundTaskSample.SampleBackgroundTaskName,
+                new SystemTrigger(SystemTriggerType.SessionConnected, false), null);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

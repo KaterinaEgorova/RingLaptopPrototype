@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {}
+    "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {}
   },
   "projects": {
-    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {
+    "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopPrototype\\RingLaptopPrototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
+        "projectUniqueName": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
         "projectName": "RingLaptopPrototype",
-        "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
+        "projectPath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopPrototype\\RingLaptopPrototype.csproj",
         "packagesPath": "C:\\Users\\katerina.egorova\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopPrototype\\obj\\",
+        "outputPath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopPrototype\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -31,8 +31,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj": {
-                "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj"
+              "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj": {
+                "projectPath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj": {
+    "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj",
+        "projectUniqueName": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj",
         "projectName": "Tasks",
-        "projectPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\Tasks.csproj",
+        "projectPath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\Tasks.csproj",
         "packagesPath": "C:\\Users\\katerina.egorova\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\RingLaptopPrototype\\RingLaptopPrototype\\RingLaptopTask\\obj\\",
+        "outputPath": "C:\\dev\\RingLaptopPrototype-muthu\\RingLaptopPrototype-muthu\\RingLaptopTask\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
